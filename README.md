@@ -20,7 +20,7 @@ This project focuses on creating a web application for the detection of brain tu
 
 ## Usage
 
-### Start Flask App
+### 1. Start Flask App
 To start the Flask app, open a terminal in the project folder and run:
 
 ```bash
@@ -29,10 +29,20 @@ python app.py
 ```
 The Flask app will be accessible at http://localhost:5000.
 
+### 2. Upload MRI Images
+Once the web application is running, navigate to http://localhost:5000 in your web browser. You'll see an interface to upload MRI images.
+
+### 3. Select and Upload MRI Image
+Click the "Choose File" button to select an MRI image file from your local machine. Once selected, click the "Upload and Predict" button to initiate the prediction process.
+
+### 4. View Prediction Result
+After uploading an MRI image and initiating the prediction process, the application will analyze the image using the deep learning model. The prediction result will be displayed on the webpage, indicating whether a tumor is present or not.
+
+<br>
+
 ## Demo
 
-### Flask
-![Screenshot 1](demon/screen.png)
+![Screenshot 1](demo/screen.png)
 
 <br>
 
